@@ -1,0 +1,44 @@
+.page-container{
+    margin: 0 auto;
+    width: 1400px;
+    background-image: url('Resources/Images/Background.png');
+    padding: 20px;
+}
+
+.header{
+    font-family: monospace;
+    font-size: 30px;
+    border-width: 2px;
+    border-color: #550000;
+    border-style: solid;
+    background-color: #550000;
+    border-radius: 20px;
+    color: white;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navcontent{
+    display: flex;
+    list-style-type: none;
+    gap: 120px;
+    padding-top: 30px;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    font-family: monospace;
+    font-size: 23px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F6D82C;
+    background-color: #F6D82C;
+    border-radius: 20px;
+    color: black;
+}
