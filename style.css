@@ -1,9 +1,17 @@
 .page-container{
     margin: 0 auto;
     width: 1400px;
-    background-image: url('Resources/Images/Background.png');
     padding: 20px;
 }
+
+.background-image{
+    background-image: url('Resources/Images/darkened-image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+
 
 .header{
     font-family: monospace;
@@ -41,4 +49,34 @@
     background-color: #F6D82C;
     border-radius: 20px;
     color: black;
+}
+
+#main-content{
+    padding-bottom: 1000px;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    opacity: 50%;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy{
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.terms{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 50px;
+    padding-right: 30px;
 }
