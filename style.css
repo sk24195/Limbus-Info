@@ -6,12 +6,9 @@
 
 .background-image{
     background-image: url('Resources/Images/darkened-image.png');
-    background-repeat: no-repeat;
     background-size: 100%;
     padding: 20px;
 }
-
-
 
 .header{
     font-family: monospace;
@@ -25,6 +22,41 @@
     padding-left: 30px;
     display: flex;
     align-items: center;
+}
+
+#main-content{
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+#main{
+    font-family: arial, sans-serif;
+    font-size: 27px;
+    color: white;
+    height: 500px;
+}
+
+#for-more-info{
+    list-style-type: none;
+    color: #F6D82C;
+}
+
+main-content2{
+    display: flex;
+    color: white;
+}
+
+#content{
+    font-size: 24px;
+    width: 600px;
+    display: flex;
+}
+
+#content-image{
+    width: 600px;
+    display: flex;
 }
 
 .navbar{
@@ -49,10 +81,6 @@
     background-color: #F6D82C;
     border-radius: 20px;
     color: black;
-}
-
-#main-content{
-    padding-bottom: 1000px;
 }
 
 .footer{
