@@ -10,6 +10,11 @@
     padding: 20px;
 }
 
+.title a{
+    text-decoration: none;
+    color: white;
+}
+
 .header{
     font-family: monospace;
     font-size: 30px;
@@ -43,15 +48,18 @@
     color: #F6D82C;
 }
 
-main-content2{
-    display: flex;
-    color: white;
-}
+
 
 #content{
     font-size: 24px;
     width: 600px;
     display: flex;
+}
+
+#ego-image{
+    width: 500px;
+    display: flex;
+    padding-right: 30px;
 }
 
 #content-image{
@@ -107,4 +115,17 @@ main-content2{
     list-style-type: none;
     gap: 50px;
     padding-right: 30px;
+}
+
+
+#characters{
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    width: 45%;
+}
+
+#main-content2{
+    display: flex;
+    justify-content: space-between;
 }
